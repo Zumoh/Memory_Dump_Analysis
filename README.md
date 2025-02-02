@@ -214,7 +214,7 @@ Within the text file, we need to locate the process that we previously identifie
 
 When examining the suspicious process **net.exe**, we noticed that it has **two dashes (--)** before its name, showing that it is a **child process** of another process. Above it, we see **powershell.exe** with **one dash (-)**, meaning it is the **parent process** of **net.exe**. 
 
-When we look at the command line output for the parent process (powershell.exe), we see that it matches the command reported on AbuseIPDB. This connection suggests the activity might be related to a known threat.
+When we looked at the command line output for the parent process (powershell.exe), we see that it matches the command reported on AbuseIPDB. This connection suggests the activity might be related to a known threat.
 
 <img width="723" alt="Screenshot 2025-02-02 at 2 51 52 PM" src="https://github.com/user-attachments/assets/cbafc9e4-41eb-478f-a199-d9eb87baeba9" />
 
