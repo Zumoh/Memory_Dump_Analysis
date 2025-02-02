@@ -1,4 +1,4 @@
-# Memory_Dump_Analysis
+# Memory Analysis
 
 <img width="739" alt="Screenshot 2025-02-01 at 4 59 57 PM" src="https://github.com/user-attachments/assets/3a569898-92ad-40b5-bfb7-1cc380939870" />
 
@@ -96,6 +96,18 @@ Using tools like MemProcFS, netstat, and VirusTotal, the investigation aims to c
 
 
 Use **7-Zip** to extract the memory dump file. When prompted for a password, enter ‘**cyberdefenders.org**’ to proceed with the extraction. This step ensures that the memory dump is accessible for further analysis.
+
+---
+
+**Investigation With MemProcFS**
+
+Open PowerShell with Administrator privileges and navigate to the directory containing the investigation file (memory dump).
+
+
+
+Once in the correct directory, change to the MemProcFS folder by executing the following command:
+```cd .\MemProcFS```
+
 
 
 
