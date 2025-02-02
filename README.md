@@ -74,7 +74,7 @@ Using tools like MemProcFS, netstat, and VirusTotal, the investigation aims to c
 
 ---
 
-- Download the lab file (memory dump) from cyberdefenders.org.
+- Download the lab file (memory dump) from ```https://cyberdefenders.org/blueteam-ctf-challenges/reveal/```.
 - Password: cyberdefenders.org.
 
 <img width="727" alt="Screenshot 2025-02-01 at 5 21 46 PM" src="https://github.com/user-attachments/assets/a435586f-8153-4c19-aebb-e55fe0be76d0" />
